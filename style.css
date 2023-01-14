@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.counter{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.display{
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: orange;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+}
